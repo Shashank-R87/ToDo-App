@@ -58,7 +58,7 @@ class _ToDoAppState extends State<ToDoApp> {
                           borderRadius: BorderRadius.circular(20)),
                     ),
                     onPressed: () {
-                      _addToDo("sample");
+                      _addToDo();
                     },
                   )),
             ),
@@ -94,7 +94,7 @@ class _ToDoAppState extends State<ToDoApp> {
     });
   }
 
-  void _addToDo(String text) {
+  void _addToDo() {
     setState(() {
       var id = DateTime.now().microsecondsSinceEpoch.toString();
       todoList.add(ToDo(id: id, todoText: _controller.text));

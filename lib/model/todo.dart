@@ -17,11 +17,7 @@ class ToDo {
         id: '04',
         todoText: 'Team Meeting',
       ),
-      ToDo(id: '05', todoText: 'Work on mobile apps for 2 hour', isDone: true),
-      ToDo(
-        id: '06',
-        todoText: 'Dinner with Jenny',
-      ),
+      ToDo(id: '05', todoText: 'Work on mobile apps for 2 hrs', isDone: true),
     ];
   }
 }
